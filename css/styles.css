@@ -1,10 +1,11 @@
 *{
     font-family: "proxima-nova", sans-serif;
 }
-.body{
+.html{
     margin: 0px;
-    padding: 0px;
+    padding:0px;
 }
+
 .navbar{
     background-color: #424242;
     color: white;
