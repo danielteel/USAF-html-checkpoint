@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel='stylesheet' href='./css/styles.css'>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GMDB</title>
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <nav class="navbar">
-            <div id="nav-links">
-                <span class="nav-text">GMDB</span>
-                <a class="nav-link-active" href="index.html">Home</a>
-                <a class="nav-link-grayed" href="login.html">Login</a>
-            </div>
-            <form id="searchForm">
-                <input type="search" id="searchText">
-                <button type="button" id="searchButton">Search</button>
-            </form>
-        </nav>
-    </header>
+    <head>
+        <link rel='stylesheet' href='./css/styles.css'>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GMDB</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav class="navbar">
+                <div id="nav-links">
+                    <span class="nav-text">GMDB</span>
+                    <a class="nav-link-active" href="index.html">Home</a>
+                    <a class="nav-link-grayed" href="login.html">Login</a>
+                </div>
+                <form id="searchForm">
+                    <input type="search" id="searchText">
+                    <button type="button" id="searchButton">Search</button>
+                </form>
+            </nav>
+        </header>
 
-    <!-- Content -->
-    <div class="backToResults">Back to results</div>
-    <main id="mainContent">
-        <section id="movieInfo">
-            <div id="coverArt">
-                <img id="coverArtImage" src="https://play-lh.googleusercontent.com/7OTx1DboUIszuMbHZwFHhYOLRQspWozEx7xFtYKG674mtGA_PSRPGIdtv7jmR4jQ9d0=w200-h300-rw" alt="cover art">
-            </div>
-            <div id="movieTitle">
-                <h3>Star Wars</h3>
-            </div>
-            <div id="releaseDate">
-                <h4>Released July, 1942</h4>
-            </div>
-            <div id="genres-actors">
-                <div id="genres">
-                    Mystery, Sci-Fi, Comedy
+        <!-- Content -->
+        <div class="backToResults">
+            <a href="index.html">Back to results</a>
+        </div>
+        <main id="mainContent">
+            <section id="movieInfo">
+                <div id="coverArt">
+                    <img id="coverArtImage" src="https://play-lh.googleusercontent.com/7OTx1DboUIszuMbHZwFHhYOLRQspWozEx7xFtYKG674mtGA_PSRPGIdtv7jmR4jQ9d0=w200-h300-rw" alt="cover art">
                 </div>
-                <div id="actors">
-                    Sylvester Stalone, Jackie Chan, Jet Li
+                <div id="movieTitle">
+                    <h3>Star Wars</h3>
                 </div>
-            </div>
-            <div id="movieDescription">
-                <p>
+                <div id="releaseDate">
+                    <h4>Released July, 1942</h4>
+                </div>
+                <div id="genres-actors">
+                    <div id="genres">
+                        Mystery, Sci-Fi, Comedy
+                    </div>
+                    <div id="actors">
+                        Sylvester Stalone, Jackie Chan, Jet Li
+                    </div>
+                </div>
+                <div id="movieDescription">
                     This movie is about people in space doing space things.
-                </p>
-            </div>
-        </section>
-        <form id="leaveComment">
-            <label>Leave a comment:</label>
-            <input type="text">
-            <br>
-            <button type="button">Submit</button>
-        </form>
-    </main>
-    
-</body>
+                </div>
+            </section>
+            <form id="leaveComment">
+                <label>Leave a comment:</label>
+                <input type="text">
+                <br>
+                <button type="button">Submit</button>
+            </form>
+        </main>
+
+    </body>
 </html>

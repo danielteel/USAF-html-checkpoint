@@ -90,10 +90,13 @@
     margin: 15px 0px 15px 0px;
     padding: 5px;
     height: 30px;
-    color: #ffd900;
     border-radius: 5px;
     background-color: rgb(94, 94, 94);
     align-items: center;
+}
+.backToResults>a{
+    text-decoration: none;
+    color: #ffd900;
 }
 
 .movieList{
